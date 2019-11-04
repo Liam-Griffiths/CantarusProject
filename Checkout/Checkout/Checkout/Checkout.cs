@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Checkout
 {
-    interface ICheckoutItem
+    public class Checkout : ICheckout
     {
-        string Name { get; set; }
+
     }
 }

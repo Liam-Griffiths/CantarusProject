@@ -1,0 +1,14 @@
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\UnitTests\obj\Debug\UnitTests.pdb

@@ -1,0 +1,4 @@
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Debug\netcoreapp2.1\Checkout.csprojAssemblyReference.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Debug\netcoreapp2.1\Checkout.csproj.CoreCompileInputs.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Debug\netcoreapp2.1\Checkout.AssemblyInfoInputs.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Debug\netcoreapp2.1\Checkout.AssemblyInfo.cs
