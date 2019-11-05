@@ -11,16 +11,18 @@ namespace Checkout
         public void PopulateDefault()
         {
 
+            Inventory = new Dictionary<string, IStoreItem>();
+
             var defaultList = new List<(string name, int price, int ruleQuantity, int rulePrice)>();
 
-            defaultList.Add(("A", 50, 3, 130 ));
+            defaultList.Add(("A", 50, 3, 130));
             defaultList.Add(("B", 50, 3, 130));
             defaultList.Add(("C", 20, -1, -1));
-            defaultList.Add(("D", 15, -1, -1));
+            defaultList.Add(("D", 15, 2, 15));
 
             foreach (var storeItem in defaultList)
             {
-                IStoreItem item = new Object() as IStoreItem;
+                StoreItem item = new StoreItem();
                 item.Price = storeItem.price;
                 item.Name = storeItem.name;
                 item.RuleQuantity = storeItem.ruleQuantity;
@@ -34,5 +36,25 @@ namespace Checkout
 
         }
 
+        public IStoreItem GetItem(string name)
+        {
+            if (Inventory.ContainsKey(name))
+            {
+                return Inventory[name];
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
+
+    class StoreItem : IStoreItem
+    {
+        public string Name { get; set; }
+        public int Price { get; set; }
+        public int RuleQuantity { get; set; }
+        public int RulePrice { get; set; }
+    }
+
 }
