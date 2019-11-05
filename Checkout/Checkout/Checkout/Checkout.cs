@@ -4,62 +4,19 @@ using System.Text;
 
 namespace Checkout
 {
-    public class Checkout : ICheckout
+    public class CheckoutMain : ICheckout
     {
 
         private int currentTotal;
         private StoreInventory storeInventory;
         private Dictionary<string, int> session;
 
-        public Checkout()
+        public CheckoutMain()
         {
             currentTotal = 0;
             storeInventory = new StoreInventory();
             storeInventory.PopulateDefault();
             session = new Dictionary<string, int>();
-        }
-
-        // Development Testing
-        static void Main(string[] args)
-        {
-            Checkout instance = new Checkout();
-
-            Console.WriteLine("------ Cantarus Checkout ------");
-            Console.WriteLine("----- Type 'exit' to quit -----");
-            Console.WriteLine("-- Type 'print' to see cart ---");
-            Console.WriteLine("---- Type 'reset' to reset ----");
-            Console.WriteLine("-------------------------------");
-
-            while (true) // Loop indefinitely
-            {
-                Console.WriteLine();
-
-                Console.WriteLine("Scan Item: ");
-                string line = Console.ReadLine();
-                if (line == "exit")
-                {
-                    break;
-                }
-
-                if (line == "print")
-                {
-                    instance.PrintSession();
-                    continue;
-                }
-
-                if (line == "reset")
-                {
-                    instance.ResetSession();
-                    continue;
-                }
-
-                Item input = new Item();
-                input.Name = line;
-                instance.Scan(input);
-        
-                Console.WriteLine("Current Total: " + instance.Total());
-                Console.WriteLine();
-            }
         }
 
         public void Scan(Item item)

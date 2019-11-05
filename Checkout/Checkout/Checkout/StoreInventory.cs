@@ -16,9 +16,9 @@ namespace Checkout
             var defaultList = new List<(string name, int price, int ruleQuantity, int rulePrice)>();
 
             defaultList.Add(("A", 50, 3, 130));
-            defaultList.Add(("B", 50, 3, 130));
+            defaultList.Add(("B", 30, 2, 45));
             defaultList.Add(("C", 20, -1, -1));
-            defaultList.Add(("D", 15, 2, 15));
+            defaultList.Add(("D", 15, -1, -1));
 
             foreach (var storeItem in defaultList)
             {

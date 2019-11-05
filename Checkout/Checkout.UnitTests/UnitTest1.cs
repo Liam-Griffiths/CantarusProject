@@ -1,5 +1,5 @@
-﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Checkout;
 
 namespace UnitTests
 {
@@ -9,6 +9,7 @@ namespace UnitTests
         [TestMethod]
         public void TestMethod1()
         {
+            Checkout instance = new Checkout();
         }
     }
 }
