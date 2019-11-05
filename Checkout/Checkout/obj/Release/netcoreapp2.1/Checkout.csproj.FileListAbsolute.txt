@@ -1,0 +1,10 @@
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\bin\Release\netcoreapp2.1\Checkout.deps.json
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\bin\Release\netcoreapp2.1\Checkout.runtimeconfig.json
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\bin\Release\netcoreapp2.1\Checkout.runtimeconfig.dev.json
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\bin\Release\netcoreapp2.1\Checkout.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\bin\Release\netcoreapp2.1\Checkout.pdb
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Release\netcoreapp2.1\Checkout.csproj.CoreCompileInputs.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Release\netcoreapp2.1\Checkout.AssemblyInfoInputs.cache
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Release\netcoreapp2.1\Checkout.AssemblyInfo.cs
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Release\netcoreapp2.1\Checkout.dll
+C:\Users\Work\Documents\GitHub\CantarusProject\Checkout\Checkout\obj\Release\netcoreapp2.1\Checkout.pdb
